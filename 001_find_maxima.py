@@ -9,6 +9,13 @@ import numpy as np
 
 
 def read_image(img_path):
+    """Read a grayscale image from resource folder.
+
+    :param img_path: name of the image (with ending)
+    :type img_path: str
+    :return: grayscale image
+    :rtype: ndarray
+    """
     resource_path = 'C:\\Users\\Hannes\\PycharmProjects\\CV_exercices\\resources\\' + img_path
     return cv2.imread(resource_path, cv2.IMREAD_GRAYSCALE)
 
