@@ -1,2 +1,3 @@
 # TU_Dresden_cv_1_some_exercises
-some description
+
+Exercise solutions for the WS2022/23 course Computer Vision I at the TU Dresden.
