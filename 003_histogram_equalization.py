@@ -7,6 +7,9 @@ Consider an image whose pixel values are confined to some specific range of valu
 For example, brighter image will have all pixels confined to high values.
 But a good image will have pixels from all regions of the image.
 So you need to stretch this histogram to either ends.
+
+Opencv documentation with code: https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.html
+Wikipedia article:              https://en.wikipedia.org/wiki/Histogram_equalization
 """
 
 import numpy as np

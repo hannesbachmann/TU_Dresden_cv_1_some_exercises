@@ -1,9 +1,10 @@
-import math
+"""
+
+Opencv tutorial on gamma correction: https://pyimagesearch.com/2015/10/05/opencv-gamma-correction/
+"""
 
 import cv2
-import os
 import numpy as np
-import matplotlib.pyplot as plt
 
 
 def read_image(img_path):
